@@ -1,0 +1,8 @@
+#!/bin/sh
+date
+wc $GEDIT_CURRENT_DOCUMENT_NAME
+git add -A
+git commit -m "save"
+sha512sum $GEDIT_CURRENT_DOCUMENT_NAME
+
+

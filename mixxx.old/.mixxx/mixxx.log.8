@@ -1,0 +1,997 @@
+Debug [Main]: "Mixxx" "2.2.4" "(flags: asan=0 asmlib=0 battery=1 buildtime=0 bulk=1 color=0 coreaudio=0 faad=0 ffmpeg=0 hid=1 hss1394=0 ipod=0 lilv=1 localecompare=1 macappstore=0 mad=1 mediafoundation=0 modplug=1 opengles=0 optimize=portable opus=1 perftools=0 perftools_profiler=0 profiling=0 qt_sqlite_plugin=0 qtkeychain=0 shoutcast=1 test=False tsan=0 ubsan=0 vamp=1 verbose=1 vinylcontrol=1 wv=0)" is starting...
+Debug [Main]: Compile time library versions:
+Debug [Main]: Qt: 5.15.2
+Debug [Main]: libshout: 2.4.5
+Debug [Main]: PortAudio: 1246720 PortAudio V19.6.0-devel, revision 396fe4b6699ae929d3a685b3ef8a7e97396139a4
+Debug [Main]: RubberBand: 1.8.2
+Debug [Main]: SoundTouch: 2.1.2
+Debug [Main]: TagLib: 1.11.1
+Debug [Main]: ChromaPrint: 1.5.0
+Debug [Main]: Vorbis: Xiph.Org libVorbis 1.3.7
+Debug [Main]: libsndfile: libsndfile-1.0.31
+Debug [Main]: FLAC: 1.3.3
+Debug [Main]: QDesktopServices::storageLocation(HomeLocation): "/home/marc"
+Debug [Main]: QDesktopServices::storageLocation(DataLocation): "/home/marc/.local/share/data//Mixxx"
+Debug [Main]: QCoreApplication::applicationDirPath() "/usr/bin"
+Debug [Main]: Loading resources from  "/usr/share/mixxx/"
+Debug [Main]: Configuration file is at the current version 2.2.4
+Info [Main]: BroadcastSettings - Found 1 profile(s)
+Debug [Main]: Loading resources from  "/usr/share/mixxx/"
+Debug [Main]: Loading resources from  "/usr/share/mixxx/"
+Debug [Main]: Loading translations for locale "en_US" from translations folder "/usr/share/mixxx/translations/" : success
+Debug [Main]: "Error: Unable to import console: no such extension"
+Debug [Main]: "Error: Unable to import svg: no such extension"
+Debug [Main]: Loading resources from  "/usr/share/mixxx/"
+Debug [Main]: Compressor attack per frame:  0.000408163 decay per frame:  4.08163e-05
+Debug [Main]: JACK client name set
+Debug [Main]: EngineNetworkStream - addWorker: worker added
+Debug [Main]: EngineNetworkStream - worker slots used: "1 out of 16"
+Debug [Main]: BroadcastManager - addConnection: created connection for profile "Connection 1"
+Debug [Main]: WARNING: AudioInput already registered!
+Debug [Main]: WARNING: AudioInput already registered!
+Debug [Main]: WARNING: AudioInput already registered!
+Debug [Main]: WARNING: AudioInput already registered!
+Info [Main]: DbConnection - Available drivers for database connections: ("QSQLITE")
+Info [Main]: DbConnectionPool - Cloned thread-local database connection "MIXXX-1" QSqlDatabase(driver="QSQLITE", database="/home/marc/.mixxx/mixxxdb.sqlite", host="localhost", port=-1, user="mixxx", open=true)
+Info [Main]: MixxxMainWindow - Connecting to database
+Info [Main]: MixxxMainWindow - Initializing or upgrading database schema
+Info [Main]: SchemaManager - Database schema is up-to-date at version 28
+Debug [Main]: LibraryScanner - Starting thread
+Info [Main]: Library - Connecting database
+Debug [LibraryScanner 1]: LibraryScanner - Entering thread
+Info [LibraryScanner 1]: DbConnectionPool - Cloned thread-local database connection "MIXXX-2" QSqlDatabase(driver="QSQLITE", database="/home/marc/.mixxx/mixxxdb.sqlite", host="localhost", port=-1, user="mixxx", open=true)
+Info [LibraryScanner 1]: LibraryScanner - Cleaning up database...
+Debug [Main]: Committing transaction on "MIXXX-1" result: true
+Info [LibraryScanner 1]: LibraryScanner - Finished database cleanup: 87 ms
+Debug [LibraryScanner 1]: LibraryScanner - Event loop starting
+Debug [Main]: CrateFeature::rebuildChildModel() -1
+Debug [Main]: Default quick links: ("/media/marc/55BE99DC5C7DDE95/Music.noDupes/", "/disk/marc/Music/", "/disk/marc/Downloads/", "/disk/marc/Desktop/", "/disk/marc/Documents/")
+Debug [Main]: Appending Quick Link:  "Music.noDupes" --- "/media/marc/55BE99DC5C7DDE95/Music.noDupes/"
+Debug [Main]: Appending Quick Link:  "Music" --- "/disk/marc/Music/"
+Debug [Main]: Appending Quick Link:  "Downloads" --- "/disk/marc/Downloads/"
+Debug [Main]: Appending Quick Link:  "Desktop" --- "/disk/marc/Desktop/"
+Debug [Main]: Appending Quick Link:  "Documents" --- "/disk/marc/Documents/"
+Debug [Main]: Committing transaction on "MIXXX-1" result: true
+Debug [Main]: Traktor Library Location=[ "/home/marc/collection.nml" ]
+Debug [Main]: Checking for access to user's library directories:
+Debug [Main]: Checking for access to "/media/marc/55BE99DC5C7DDE95/Music.noDupes" : true
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Entering thread
+Info [AnalyzerQueue 1]: DbConnectionPool - Cloned thread-local database connection "MIXXX-3" QSqlDatabase(driver="QSQLITE", database="/home/marc/.mixxx/mixxxdb.sqlite", host="localhost", port=-1, user="mixxx", open=true)
+Debug [Main]: Creating ControllerManager
+Debug [Controller]: ControllerManager:slotInitialize
+Debug [Main]: Set root GL Context widget valid: QGLWidget(0x55da7b460cc0) true
+Debug [Main]: Created root GL Context valid: 0x55da7b45fdb0 true
+Debug [Main]: Root GL Context format:
+Debug [Main]: Double Buffering: true
+Debug [Main]: Swap interval: 0
+Debug [Main]: Depth buffer: true
+Debug [Main]: Direct rendering: true
+Debug [Main]: Has overlay: false
+Debug [Main]: RGBA: true
+Debug [Main]: Sample buffers: false
+Debug [Main]: Samples: -1
+Debug [Main]: Stencil buffers: true
+Debug [Main]: Stereo: false
+Debug [Main]: "openGLVersionFlags 0x307f" "3.1 Mesa 20.3.4" "Mesa/X.org" "llvmpipe (LLVM 11.0.1, 256 bits)"
+Debug [Main]: DBus screensaver  org.freedesktop.ScreenSaver  inhibited
+Debug [Main]: RLimit Cur  0
+Debug [Main]: RLimit Max  0
+Debug [Main]: ControllerManager::getControllerList
+Debug [Controller]: Extension .midi.xml total 118 presets
+Debug [Controller]: Extension .hid.xml total 11 presets
+Debug [Controller]: Extension .bulk.xml total 1 presets
+Info [Main]: VampPluginAdapter - Current VAMP_PATH is: ""
+Debug [Main]: VampPluginAdapter - Ignoring non-existent path: "/home/marc/.local/share/data/Mixxx"
+Debug [Main]: VampPluginAdapter - Ignoring non-existent path: "/usr/bin"
+Debug [Main]: VampPluginAdapter - Ignoring non-existent path: "/usr/bin"
+Info [Main]: VampPluginAdapter - Setting VAMP_PATH to: "/usr/lib/mixxx/plugins/vampqt5"
+Debug [Main]: VampPluginLoader::listPlugins() returned 4 plugins
+Debug [Main]: Plugin output displayname: "mixxxbpmdetection:0" "SoundTouch BPM Detector (Legacy)"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:0" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:1" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:2" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:3" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-keydetector:0" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-keydetector:1" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-keydetector:2" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-keydetector:3" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-tempotracker:0" "Tempo and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-tempotracker:1" "Tempo and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-tempotracker:2" "Tempo and Beat Tracker"
+Debug [Main]: VampPluginLoader::listPlugins() returned 4 plugins
+Debug [Main]: Plugin output displayname: "mixxxbpmdetection:0" "SoundTouch BPM Detector (Legacy)"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:0" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:1" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:2" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:3" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-keydetector:0" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-keydetector:1" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-keydetector:2" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-keydetector:3" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-tempotracker:0" "Tempo and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-tempotracker:1" "Tempo and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-tempotracker:2" "Tempo and Beat Tracker"
+Debug [Main]: DlgPrefKey::loadSettings
+Debug [Main]: Key plugin ID: "qm-keydetector:2"
+Debug [Main]: LegacySkinParser loading skin: "/usr/share/mixxx/skins/Deere"
+Debug [Main]: "Error: Unable to import console: no such extension"
+Debug [Main]: "Error: Unable to import svg: no such extension"
+Debug [Main]: Skin is a >=1.12.0 style skin.
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Debug [Main]: Created QGLWidget. Context Valid: true Sharing: true
+Debug [Main]: GLWaveformRendererSignalShader::loadShaders
+Debug [Main]: WaveformWidgetFactory::setWaveformWidget - waveform widget added in factory, index 0
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Debug [Main]: Created QGLWidget. Context Valid: true Sharing: true
+Debug [Main]: GLWaveformRendererSignalShader::loadShaders
+Debug [Main]: WaveformWidgetFactory::setWaveformWidget - waveform widget added in factory, index 1
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Debug [Main]: Created QGLWidget. Context Valid: true Sharing: true
+Debug [Main]: GLWaveformRendererSignalShader::loadShaders
+Debug [Main]: WaveformWidgetFactory::setWaveformWidget - waveform widget added in factory, index 2
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Debug [Main]: Created QGLWidget. Context Valid: true Sharing: true
+Debug [Main]: GLWaveformRendererSignalShader::loadShaders
+Debug [Main]: WaveformWidgetFactory::setWaveformWidget - waveform widget added in factory, index 3
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Debug [Main]: WSearchLineEdit - Background color: QColor(ARGB 1, 1, 1, 1)
+Debug [Main]: WSearchLineEdit - Foreground color: QColor(ARGB 1, 0, 0, 0)
+Debug [Main]: WTrackTableView::loadTrackModel() HiddenTableModel(0x55da7fe3b540)
+Debug [Main]: WTrackTableView::loadTrackModel() MissingTableModel(0x55da7fe944c0)
+Debug [Main]: WTrackTableView::loadTrackModel() PlaylistTableModel(0x55da78ddd710)
+Debug [Main]: Recordings folder set to "/disk/marc/old/hackerscardgame-notes5"
+Debug [Main]: WTrackTableView::loadTrackModel() QSortFilterProxyModel(0x55da7fe4c540)
+Debug [BrowseThread]: Append last  0
+Debug [Main]: WTrackTableView::loadTrackModel() AnalysisLibraryTableModel(0x55da7ffc0c30)
+Debug [Main]: BaseTrackCache(0x55da7b254e40) updateIndexWithQuery took 51 ms
+Debug [Main]: AnalysisLibraryTableModel(0x55da7ffc0c30) select() took 180 ms 75
+Debug [Main]: AnalysisLibraryTableModel(0x55da7ffc0c30) select() took 28 ms 75
+Debug [Main]: DlgAnalysis(0x55da7ff852f0, name="DlgAnalysis") analysisActive false
+Warning [Main]: src/skin/legacyskinparser.cpp:2110 SKIN ERROR at skin:tool_bar.xml:344 <Connection>: LegacySkinParser::setupConnections(): EmitOnPressAndRelease must not set false
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: src/skin/legacyskinparser.cpp:2110 SKIN ERROR at skin:skin_settings.xml:40 <Connection>: LegacySkinParser::setupConnections(): EmitOnPressAndRelease must not set false
+Debug [Main]: MixxxLibraryFeature::activate()
+Debug [Main]: WTrackTableView::loadTrackModel() LibraryTableModel(0x55da7b3ac4b0)
+Debug [Main]: LibraryTableModel(0x55da7b3ac4b0) select() took 53 ms 10499
+Debug [Main]: trying to restore position
+Debug [Controller]: ControllerManager: Setting up devices
+Debug [Controller]: Scanning PortMIDI devices:
+Debug [Controller]:  Found output device # 2 X-TOUCH MINI MIDI 1
+Debug [Controller]:  Found output device # 4 APC MINI MIDI 1
+Debug [Controller]:  Found output device # 6 APC MINI MIDI 1
+Debug [Controller]:  Found output device # 8 APC Key 25 MIDI 1
+Debug [Controller]:  Found output device # 10 qjackctl
+Debug [Controller]:  Found input device # 3 X-TOUCH MINI MIDI 1
+Debug [Controller]:     Linking to output device # 2 "X-TOUCH MINI MIDI 1"
+Debug [Controller]:  Found input device # 5 APC MINI MIDI 1
+Debug [Controller]:     Linking to output device # 4 "APC MINI MIDI 1"
+Debug [Controller]:  Found input device # 7 APC MINI MIDI 1
+Debug [Controller]:     Linking to output device # 6 "APC MINI MIDI 1"
+Debug [Controller]:  Found input device # 9 APC Key 25 MIDI 1
+Debug [Controller]:     Linking to output device # 8 "APC Key 25 MIDI 1"
+Debug [Controller]: Scanning USB Bulk devices:
+Debug [Controller]: Scanning HID devices:
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler1]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler2]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler3]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler4]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler5]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler6]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler7]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler8]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler9]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler10]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler11]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler12]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler13]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler14]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler15]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler16]"
+Debug [Main]: SoundManager::setupDevices()
+Debug [Main]: SoundDevicePortAudio::open() "SoundDeviceId(default, \u001F)"
+Debug [Main]: framesPerBuffer: 1024
+Debug [Main]: Requested sample rate:  48000 Hz, latency: 21.3333 ms
+Debug [Main]: Output channels: 2 | Input channels: 0
+Debug [Main]: Opening stream with id 31
+Debug [Main]: Opened PortAudio stream successfully... starting
+Debug [Main]: Dynamically loaded PortAudio library
+Debug [Main]: PortAudio: Started stream successfully
+Debug [Main]:    Actual sample rate:  48000 Hz, latency: 42.6667 ms
+Debug []: SSE: Denormals to zero mode already enabled
+Debug []: SSE: Flush to zero mode already enabled
+Debug []: Denormals to zero mode is working
+Debug [Main]: Compressor attack per frame:  0.000375 decay per frame:  3.75e-05
+Debug [Main]: SoundDeviceNetwork - open: "Network stream"
+Debug [Main]: framesPerBuffer: 1024
+Debug [Main]: Requested sample rate:  48000 Hz, latency: 21333333 ns
+Debug [Main]: Using "default" as output sound device clock reference
+Debug [Main]: 2 output sound devices opened
+Debug [Main]: 0 input sound devices opened
+Debug [Main]: Displaying main window
+Debug [Main]: Running Mixxx
+Debug [Controller]: Found "" "" "r4625" S/N "" "Interface 0"
+Warning [Controller]: USB permissions problem (or device error.) Your account needs write access to USB HID controllers.
+Debug [Controller]: Found "" "" "r4625" S/N "" "Interface 1"
+Warning [Controller]: USB permissions problem (or device error.) Your account needs write access to USB HID controllers.
+Debug [Controller]: Found "" "" "r4625" S/N "" "Interface 2"
+Warning [Controller]: USB permissions problem (or device error.) Your account needs write access to USB HID controllers.
+Debug [Controller]: Found "" "" "r256" S/N "" "Interface 3"
+Warning [Controller]: USB permissions problem (or device error.) Your account needs write access to USB HID controllers.
+Debug [Controller]: Found "" "" "r4617" S/N "" "Interface 0"
+Warning [Controller]: USB permissions problem (or device error.) Your account needs write access to USB HID controllers.
+Debug [Controller]: Found "" "" "r4617" S/N "" "Interface 1"
+Warning [Controller]: USB permissions problem (or device error.) Your account needs write access to USB HID controllers.
+Debug [Controller]: Found "" "" "r4617" S/N "" "Interface 2"
+Warning [Controller]: USB permissions problem (or device error.) Your account needs write access to USB HID controllers.
+Debug [Controller]: Found "" "" "r29184" S/N "" "Interface 0"
+Warning [Controller]: USB permissions problem (or device error.) Your account needs write access to USB HID controllers.
+Debug [Controller]: ControllerManager::getControllerList
+Debug [Controller]: Searching for controller preset "X-TOUCH_MINI_MIDI_1.midi.xml" in paths: "/home/marc/.mixxx/controllers/,/usr/share/mixxx/controllers/"
+Debug [Controller]: Loading controller preset from "/home/marc/.mixxx/controllers/X-TOUCH_MINI_MIDI_1.midi.xml"
+Debug [Controller]: MidiControllerPresetFileHandler: Input mapping parsing complete.
+Debug [Controller]: MidiPresetFileHandler: Output mapping parsing complete.
+Debug [Controller]: Opening controller: "X-TOUCH MINI MIDI 1"
+Debug [Controller]: Controller in script engine is: "X-TOUCH MINI MIDI 1"
+Debug [Controller]: Applying controller preset...
+Debug [Controller]: ControllerEngine: Watching JS File: "/usr/share/mixxx/controllers/common-controller-scripts.js"
+Debug [Controller]: ControllerEngine: Loading "/usr/share/mixxx/controllers/common-controller-scripts.js"
+Debug [Controller]: Searching for controller preset "APC_MINI_MIDI_1.midi.xml" in paths: "/home/marc/.mixxx/controllers/,/usr/share/mixxx/controllers/"
+Debug [Controller]: Loading controller preset from "/home/marc/.mixxx/controllers/APC_MINI_MIDI_1.midi.xml"
+Debug [Controller]: MidiControllerPresetFileHandler: Input mapping parsing complete.
+Debug [Controller]: MidiPresetFileHandler: Output mapping parsing complete.
+Debug [Controller]: Searching for controller preset "APC_MINI_MIDI_1--2.midi.xml" in paths: "/home/marc/.mixxx/controllers/,/usr/share/mixxx/controllers/"
+Debug [Controller]: Loading controller preset from "/home/marc/.mixxx/controllers/APC_MINI_MIDI_1--2.midi.xml"
+Debug [Controller]: MidiControllerPresetFileHandler: Input mapping parsing complete.
+Debug [Controller]: MidiPresetFileHandler: Output mapping parsing complete.
+Debug [Controller]: Searching for controller preset "APC_Key_25_MIDI_1.midi.xml" in paths: "/home/marc/.mixxx/controllers/,/usr/share/mixxx/controllers/"
+Debug [Controller]: Loading controller preset from "/home/marc/.mixxx/controllers/APC_Key_25_MIDI_1.midi.xml"
+Debug [Controller]: MidiControllerPresetFileHandler: Input mapping parsing complete.
+Debug [Controller]: MidiPresetFileHandler: Output mapping parsing complete.
+Debug [Controller]: Controller polling started.
+Debug [Main]: ControllerManager::getControllerList
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x55da8300b280)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x55da82f02c30)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x55da82effce0)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x55da82f0a710)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x55da82c9fb60)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x55da8555d960)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x55da8555dfd0)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x55da8555e360)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x55da8555e7a0)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x55da8555ec10)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x55da8555b990)
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x55da8644f6d0)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x55da8644fc90)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x55da86450020)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x55da86450460)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x55da8644d450)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x55da87305d50)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x55da873063c0)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x55da87306750)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x55da87306b90)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x55da87307000)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x55da87303d80)
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x55da881f1eb0)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x55da881f2420)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x55da881f27b0)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x55da881f2bf0)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x55da881efc50)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x55da890a8690)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x55da890a8d00)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x55da890a9090)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x55da890a94d0)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x55da890a9940)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x55da890a66c0)
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x55da89f95790)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x55da89f95c50)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x55da89f96050)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x55da89f96490)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x55da89f93450)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x55da8ae4bfa0)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x55da8ae4c610)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x55da8ae4c9a0)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x55da8ae4cde0)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x55da8ae4d250)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x55da8ae49fd0)
+Debug [Main]: PlaylistTableModel(0x55da78ddd710) select() took 0 ms 14
+Debug [Main]: Successfully deserialized BeatGrid
+Debug [Main]: Successfully deserialized KeyMap
+Debug [Main]: BaseTrackCache(0x55da7b254e40) updateIndexWithQuery took 0 ms
+Debug [Main]: Auto DJ enabled
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Channel1]"
+Debug [CachingReaderWorker 1]: SoundSourceProxy - Opening file "file:///media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/10 - E-Force - Salute (Q-Base 2018 Hangar OST).ogg" with provider "Xiph.org OggVorbis" using mode Strict
+Debug [Main]: BaseTrackPlayerImpl::slotTrackLoaded
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Analyzing "Salute (Q-Base 2018 Hangar OST)" "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/10 - E-Force - Salute (Q-Base 2018 Hangar OST).ogg"
+Debug [AnalyzerQueue 1]: SoundSourceProxy - Opening file "file:///media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/10 - E-Force - Salute (Q-Base 2018 Hangar OST).ogg" with provider "Xiph.org OggVorbis" using mode Strict
+Debug [Main]: WSpinny::slotCoverFound WSpinny(0x55da7be5c2e0, name = "SpinnySingletonWithCover[Channel1]")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WSpinny::slotCoverFound WSpinny(0x55da7db45380, name = "SpinnySingletonNoCover[Channel1]")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x55da812c2d70, name = "DeckCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: Committing transaction on "MIXXX-1" result: true
+Debug [Main]: PlaylistTableModel(0x55da78ddd710) select() took 0 ms 13
+Debug [Main]: Successfully deserialized BeatGrid
+Debug [Main]: Successfully deserialized KeyMap
+Debug [Main]: BaseTrackCache(0x55da7b254e40) updateIndexWithQuery took 0 ms
+Debug [AnalyzerQueue 1]: AnalysisDAO fetched 2 analyses, 1600565 bytes for track 41998 in 11 ms
+Debug [AnalyzerQueue 1]: Reading waveform from byte array: allSignalSize 175802 visualSampleRate 441 audioVisualRatio 100
+Debug [AnalyzerQueue 1]: Reading waveform from byte array: allSignalSize 3840 visualSampleRate 9.63275 audioVisualRatio 4578.13
+Debug [AnalyzerQueue 1]: AnalyzerWaveform - loadStored - Stored waveform loaded
+Debug [AnalyzerQueue 1]: Beat calculation will not start
+Debug [AnalyzerQueue 1]: Keys version/sub-version unchanged since previous analysis. Not analyzing.
+Debug [AnalyzerQueue 1]: Key calculation will not start.
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Skipping track analysis because no analyzer initialized.
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Channel2]"
+Debug [Main]: "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/10 - E-Force - Salute (Q-Base 2018 Hangar OST).ogg" fromTrackDuration = 199.32
+Debug [Main]: "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/22 - Killshot & Ncrypta - Uppercut.ogg" toTrackDuration =  187.093
+Debug [Main]: m_fadeDuration "[Channel1]" = 0.0401365
+Debug [CachingReaderWorker 2]: SoundSourceProxy - Opening file "file:///media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/22 - Killshot & Ncrypta - Uppercut.ogg" with provider "Xiph.org OggVorbis" using mode Strict
+Debug [Main]: Committing transaction on "MIXXX-1" result: true
+Debug [Main]: BaseTrackPlayerImpl::slotTrackLoaded
+Debug [Main]: "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/10 - E-Force - Salute (Q-Base 2018 Hangar OST).ogg" fromTrackDuration = 199.32
+Debug [Main]: "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/22 - Killshot & Ncrypta - Uppercut.ogg" toTrackDuration =  187.093
+Debug [Main]: m_fadeDuration "[Channel1]" = 0.0401365
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Analyzing "Uppercut" "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/22 - Killshot & Ncrypta - Uppercut.ogg"
+Debug [Main]: WSpinny::slotCoverFound WSpinny(0x55da7e5f5330, name = "SpinnySingletonWithCover[Channel2]")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WSpinny::slotCoverFound WSpinny(0x55da7e86dfa0, name = "SpinnySingletonNoCover[Channel2]")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [AnalyzerQueue 1]: SoundSourceProxy - Opening file "file:///media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/22 - Killshot & Ncrypta - Uppercut.ogg" with provider "Xiph.org OggVorbis" using mode Strict
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x55da82150f80, name = "DeckCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [AnalyzerQueue 1]: AnalysisDAO fetched 2 analyses, 1643204 bytes for track 42009 in 13 ms
+Debug [AnalyzerQueue 1]: Reading waveform from byte array: allSignalSize 165018 visualSampleRate 441 audioVisualRatio 100
+Debug [AnalyzerQueue 1]: Reading waveform from byte array: allSignalSize 3842 visualSampleRate 10.2623 audioVisualRatio 4297.3
+Debug [AnalyzerQueue 1]: AnalyzerWaveform - loadStored - Stored waveform loaded
+Debug [AnalyzerQueue 1]: Beat calculation will not start
+Debug [AnalyzerQueue 1]: Keys version/sub-version unchanged since previous analysis. Not analyzing.
+Debug [AnalyzerQueue 1]: Key calculation will not start.
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Skipping track analysis because no analyzer initialized.
+Debug [Main]: MixxxLibraryFeature::activate()
+Debug [Main]: WTrackTableView::loadTrackModel() LibraryTableModel(0x55da7b3ac4b0)
+Debug [Main]: LibraryTableModel(0x55da7b3ac4b0) select() took 49 ms 10499
+Debug [Main]: trying to restore position
+Debug [Main]: LibraryTableModel(0x55da7b3ac4b0) select() took 68 ms 24
+Debug [LibraryScanner 1]: LibraryScanner - slotStartScan()
+Debug [LibraryScanner 1]: LibraryScanner - Recursively scanning library.
+Debug [LibraryScanner 1]: LibraryScanner - slotFinishHashedScan
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/13 - Code Black & Toneshifterz feat. Insali - Smoke & Flame.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/01 - DJ Coone - Dedicated To The Core (Defqon.1 Australia 2018 Anthem).ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/02 - Dillytek - Fight For You.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/03 - Atmozfears & Demi Kanon feat. David - Yesterday.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/04 - Primeshock - We Had Disco.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/05 - KELTEK - Valkyries.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/06 - Sylence - Noon.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/07 - Headhunterz - Leap Of Faith.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/08 - Orphan - Home.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/09 - Da Tweekaz - Back And Forth.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/10 - G4bby feat. Bazz Boyz - Without Your Love (G4bby Remix).ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/11 - The Pitcher - Forever And Ever.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/12 - Noisecontrollers - The Night.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/14 - Zatox - Hero.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/15 - Galactixx - Become The Future.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/16 - G5bby - Be With You.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/17 - Sound Rush & Villain - Dark Knights (Official Pumpkin 2018 Anthem).ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/18 - Rebourne - Break Free.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/19 - Sub Zero Project & Phuture Noize - We Are The Fallen.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/20 - Rexanthony & Francesco Zeta - E.D.N..ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/21 - D-Block & S-te-fan - Ghost Stories.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/22 - Tatanka - The Process.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/23 - Adaro & Ellie - One More Time.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/24 - Ran-D - Hurricane.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/12 - Mindblast - We Are Not Alone.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/01 - Sound Rush - Guide You.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/02 - Septimo - Emotion.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/03 - Cellrock - On With The Show.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/04 - Hyperion - Forever.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/05 - D-Charged feat. Elizabeth - Calling.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/06 - Solstice - Last Minute.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/07 - Wasted Penguinz & Adrenalize - This Is The One.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/08 - Shockwave & Anklebreaker - Live Today.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/09 - Retrospect - The Realm Of Gods.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/10 - Psyko Punkz - New Earth.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/11 - Wildstylerz - Heartbeat.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/13 - Audiotricz - Enlightenment.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/14 - Bass Modulators & Max Enforcer - Our Soul.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/15 - Brennan Heart - Fulled By Fanatics (Decibel Anthem 2018).ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/16 - TNT & DJ Isaac - The Realm.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/17 - Crystal Lake & D-Stroyer - Invaders.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/18 - Concept Art & Existenze - The Austrian Movement (Hyperbeat Anthem 2018).ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/19 - Yoji Biomehanika - Hardstyle Disco (Da Tweekaz & Sub Zero Project Remix).ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/20 - Frontliner & John Harris - I Know.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/21 - Dougal - Headbanger (Da Tweekaz Remix).ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/22 - Hard Driver - No Rest For The Wicked.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/23 - Devin Wild & Warface - For All Of Us.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/24 - The Prophet - CLTR SHCK.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/13 - Code Black & Toneshifterz feat. Insali - Smoke & Flame.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/01 - DJ Coone - Dedicated To The Core (Defqon.1 Australia 2018 Anthem).ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/02 - Dillytek - Fight For You.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/03 - Atmozfears & Demi Kanon feat. David - Yesterday.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/04 - Primeshock - We Had Disco.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/05 - KELTEK - Valkyries.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/06 - Sylence - Noon.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/07 - Headhunterz - Leap Of Faith.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/08 - Orphan - Home.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/09 - Da Tweekaz - Back And Forth.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/10 - G4bby feat. Bazz Boyz - Without Your Love (G4bby Remix).ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/11 - The Pitcher - Forever And Ever.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/12 - Noisecontrollers - The Night.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/14 - Zatox - Hero.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/15 - Galactixx - Become The Future.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/16 - G5bby - Be With You.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/17 - Sound Rush & Villain - Dark Knights (Official Pumpkin 2018 Anthem).ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/18 - Rebourne - Break Free.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/19 - Sub Zero Project & Phuture Noize - We Are The Fallen.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/20 - Rexanthony & Francesco Zeta - E.D.N..ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/21 - D-Block & S-te-fan - Ghost Stories.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/22 - Tatanka - The Process.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/23 - Adaro & Ellie - One More Time.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/24 - Ran-D - Hurricane.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/12 - Mindblast - We Are Not Alone.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/01 - Sound Rush - Guide You.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/02 - Septimo - Emotion.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/03 - Cellrock - On With The Show.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/04 - Hyperion - Forever.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/05 - D-Charged feat. Elizabeth - Calling.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/06 - Solstice - Last Minute.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/07 - Wasted Penguinz & Adrenalize - This Is The One.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/08 - Shockwave & Anklebreaker - Live Today.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/09 - Retrospect - The Realm Of Gods.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/10 - Psyko Punkz - New Earth.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/11 - Wildstylerz - Heartbeat.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/13 - Audiotricz - Enlightenment.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/14 - Bass Modulators & Max Enforcer - Our Soul.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/15 - Brennan Heart - Fulled By Fanatics (Decibel Anthem 2018).ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/16 - TNT & DJ Isaac - The Realm.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/17 - Crystal Lake & D-Stroyer - Invaders.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/18 - Concept Art & Existenze - The Austrian Movement (Hyperbeat Anthem 2018).ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/19 - Yoji Biomehanika - Hardstyle Disco (Da Tweekaz & Sub Zero Project Remix).ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/20 - Frontliner & John Harris - I Know.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/21 - Dougal - Headbanger (Da Tweekaz Remix).ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/22 - Hard Driver - No Rest For The Wicked.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/23 - Devin Wild & Warface - For All Of Us.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/24 - The Prophet - CLTR SHCK.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/13 - Jack Of Sound - A New World (the great reset).ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/01 - DJ Thera feat. Marissa Dijkstra - Far Away.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/02 - Nexone - Underground.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/03 - Endymion feat. Eva Blom - Save Me (Endymion Remix).ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/04 - Alphaverb - Final Song.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/05 - Raveage & Level One - Moment Of Truth.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/06 - Unresolved - Chances.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/07 - Digital Punk - Die Trying.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/08 - D-Sturb & Warface - Drown.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/09 - Degos & Re-Done && Sub Sonik - Lost Connection.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/10 - E-Force - Salute (Q-Base 2018 Hangar OST).ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/11 - Crypsis - The E (defectify Cypres).ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/12 - Delete - V2P.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/14 - Notorious Two - Hell Yeah.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/15 - Caine - Blast Your Ass.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/16 - Sub Sonik & Requiem - Elevation.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/17 - Thyron, Luminite, Physika & MC Focus - Full Force.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/18 - Rebelion - Revelation.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/19 - Radical Redemption - The Darkest Moment.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/20 - Chris One - Mind Of A Killer.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/21 - Act Of Rage - Grown Up.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/22 - Killshot & Ncrypta - Uppercut.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/23 - Clockartz & Malice - Dirty Italy.ogg"
+Debug [Thread (pooled)]: Importing track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/24 - Minus Militia - Pessimal Evil.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/13 - Code Black & Toneshifterz feat. Insali - Smoke & Flame.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/01 - DJ Coone - Dedicated To The Core (Defqon.1 Australia 2018 Anthem).ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/02 - Dillytek - Fight For You.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/03 - Atmozfears & Demi Kanon feat. David - Yesterday.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/04 - Primeshock - We Had Disco.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/05 - KELTEK - Valkyries.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/06 - Sylence - Noon.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/07 - Headhunterz - Leap Of Faith.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/08 - Orphan - Home.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/09 - Da Tweekaz - Back And Forth.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/10 - G4bby feat. Bazz Boyz - Without Your Love (G4bby Remix).ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/11 - The Pitcher - Forever And Ever.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/12 - Noisecontrollers - The Night.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/14 - Zatox - Hero.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/15 - Galactixx - Become The Future.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/16 - G5bby - Be With You.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/17 - Sound Rush & Villain - Dark Knights (Official Pumpkin 2018 Anthem).ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/18 - Rebourne - Break Free.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/19 - Sub Zero Project & Phuture Noize - We Are The Fallen.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/20 - Rexanthony & Francesco Zeta - E.D.N..ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/21 - D-Block & S-te-fan - Ghost Stories.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/22 - Tatanka - The Process.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/23 - Adaro & Ellie - One More Time.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD1/24 - Ran-D - Hurricane.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/12 - Mindblast - We Are Not Alone.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/01 - Sound Rush - Guide You.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/02 - Septimo - Emotion.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/03 - Cellrock - On With The Show.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/04 - Hyperion - Forever.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/05 - D-Charged feat. Elizabeth - Calling.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/06 - Solstice - Last Minute.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/07 - Wasted Penguinz & Adrenalize - This Is The One.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/08 - Shockwave & Anklebreaker - Live Today.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/09 - Retrospect - The Realm Of Gods.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/10 - Psyko Punkz - New Earth.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/11 - Wildstylerz - Heartbeat.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/13 - Audiotricz - Enlightenment.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/14 - Bass Modulators & Max Enforcer - Our Soul.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/15 - Brennan Heart - Fulled By Fanatics (Decibel Anthem 2018).ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/16 - TNT & DJ Isaac - The Realm.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/17 - Crystal Lake & D-Stroyer - Invaders.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/18 - Concept Art & Existenze - The Austrian Movement (Hyperbeat Anthem 2018).ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/19 - Yoji Biomehanika - Hardstyle Disco (Da Tweekaz & Sub Zero Project Remix).ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/20 - Frontliner & John Harris - I Know.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/21 - Dougal - Headbanger (Da Tweekaz Remix).ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/22 - Hard Driver - No Rest For The Wicked.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/23 - Devin Wild & Warface - For All Of Us.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD2/24 - The Prophet - CLTR SHCK.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/13 - Code Black & Toneshifterz feat. Insali - Smoke & Flame.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/01 - DJ Coone - Dedicated To The Core (Defqon.1 Australia 2018 Anthem).ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/02 - Dillytek - Fight For You.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/03 - Atmozfears & Demi Kanon feat. David - Yesterday.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/04 - Primeshock - We Had Disco.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/05 - KELTEK - Valkyries.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/06 - Sylence - Noon.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/07 - Headhunterz - Leap Of Faith.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/08 - Orphan - Home.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/09 - Da Tweekaz - Back And Forth.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/10 - G4bby feat. Bazz Boyz - Without Your Love (G4bby Remix).ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/11 - The Pitcher - Forever And Ever.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/12 - Noisecontrollers - The Night.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/14 - Zatox - Hero.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/15 - Galactixx - Become The Future.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/16 - G5bby - Be With You.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/17 - Sound Rush & Villain - Dark Knights (Official Pumpkin 2018 Anthem).ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/18 - Rebourne - Break Free.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/19 - Sub Zero Project & Phuture Noize - We Are The Fallen.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/20 - Rexanthony & Francesco Zeta - E.D.N..ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/21 - D-Block & S-te-fan - Ghost Stories.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/22 - Tatanka - The Process.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/23 - Adaro & Ellie - One More Time.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD1/24 - Ran-D - Hurricane.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/12 - Mindblast - We Are Not Alone.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/01 - Sound Rush - Guide You.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/02 - Septimo - Emotion.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/03 - Cellrock - On With The Show.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/04 - Hyperion - Forever.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/05 - D-Charged feat. Elizabeth - Calling.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/06 - Solstice - Last Minute.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/07 - Wasted Penguinz & Adrenalize - This Is The One.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/08 - Shockwave & Anklebreaker - Live Today.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/09 - Retrospect - The Realm Of Gods.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/10 - Psyko Punkz - New Earth.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/11 - Wildstylerz - Heartbeat.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/13 - Audiotricz - Enlightenment.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/14 - Bass Modulators & Max Enforcer - Our Soul.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/15 - Brennan Heart - Fulled By Fanatics (Decibel Anthem 2018).ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/16 - TNT & DJ Isaac - The Realm.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/17 - Crystal Lake & D-Stroyer - Invaders.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/18 - Concept Art & Existenze - The Austrian Movement (Hyperbeat Anthem 2018).ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/19 - Yoji Biomehanika - Hardstyle Disco (Da Tweekaz & Sub Zero Project Remix).ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/20 - Frontliner & John Harris - I Know.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/21 - Dougal - Headbanger (Da Tweekaz Remix).ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/22 - Hard Driver - No Rest For The Wicked.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/23 - Devin Wild & Warface - For All Of Us.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD2/24 - The Prophet - CLTR SHCK.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/13 - Jack Of Sound - A New World (the great reset).ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/01 - DJ Thera feat. Marissa Dijkstra - Far Away.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/02 - Nexone - Underground.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/03 - Endymion feat. Eva Blom - Save Me (Endymion Remix).ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/04 - Alphaverb - Final Song.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/05 - Raveage & Level One - Moment Of Truth.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/06 - Unresolved - Chances.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/07 - Digital Punk - Die Trying.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/08 - D-Sturb & Warface - Drown.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/09 - Degos & Re-Done && Sub Sonik - Lost Connection.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/10 - E-Force - Salute (Q-Base 2018 Hangar OST).ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/11 - Crypsis - The E (defectify Cypres).ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/12 - Delete - V2P.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/14 - Notorious Two - Hell Yeah.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/15 - Caine - Blast Your Ass.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/16 - Sub Sonik & Requiem - Elevation.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/17 - Thyron, Luminite, Physika & MC Focus - Full Force.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/18 - Rebelion - Revelation.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/19 - Radical Redemption - The Darkest Moment.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/20 - Chris One - Mind Of A Killer.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/21 - Act Of Rage - Grown Up.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/22 - Killshot & Ncrypta - Uppercut.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/23 - Clockartz & Malice - Dirty Italy.ogg"
+Debug [LibraryScanner 1]: TrackDAO: Adding track "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardstyle/Hardbase.fm 10 - CD3/24 - Minus Militia - Pessimal Evil.ogg"
+Debug [LibraryScanner 1]: LibraryScanner - slotFinishUnhashedScan
+Debug [LibraryScanner 1]: LibraryScanner - Recursive scanning finished cleanly
+Debug [LibraryScanner 1]: LibraryScanner - Marking tracks in changed directories as verified
+Debug [LibraryScanner 1]: LibraryScanner - Marking unchanged directories and tracks as verified
+Debug [LibraryScanner 1]: LibraryScanner - Checking remaining unverified tracks
+Debug [LibraryScanner 1]: LibraryScanner - Marking unverified tracks as deleted
+Debug [LibraryScanner 1]: LibraryScanner - Marking unverified directories as deleted
+Debug [LibraryScanner 1]: LibraryScanner - Detecting moved files
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc - Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD2/01 - Marc - Uwe Kling - Kapitel 6 Diese Tipps Und Tricks Helfen Dir Dabei, Deinen Job Besser Zu Ertragen.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc - Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD2/01 - Marc - Uwe Kling - Kapitel 6 Diese Tipps Und Tricks Helfen Dir Dabei, Deinen Job Besser Zu Ertragen.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc - Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD2/02 - Marc - Uwe Kling - Kapitel 7 5 Level-Fähigkeiten, Die Dein Leben So Viel Besser Machen.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc - Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD2/02 - Marc - Uwe Kling - Kapitel 7 5 Level-Fähigkeiten, Die Dein Leben So Viel Besser Machen.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc - Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD2/03 - Marc - Uwe Kling - Die Nackte Wahrheit Worldview.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc - Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD2/03 - Marc - Uwe Kling - Die Nackte Wahrheit Worldview.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc - Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD2/04 - Marc - Uwe Kling - Kapitel 8 59.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc - Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD2/04 - Marc - Uwe Kling - Kapitel 8 59.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc - Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD2/05 - Marc - Uwe Kling - MeVision Präsentiert Dan & Dan - Killers.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc - Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD2/05 - Marc - Uwe Kling - MeVision Präsentiert Dan & Dan - Killers.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc - Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD2/06 - Marc - Uwe Kling - Kapitel 9 Was Dieser Staubsaug-Roboter Heraus Gefunden Hat, Würde Seine Besitzerin Schockieren.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc - Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD2/06 - Marc - Uwe Kling - Kapitel 9 Was Dieser Staubsaug-Roboter Heraus Gefunden Hat, Würde Seine Besitzerin Schockieren.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc - Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD2/07 - Marc - Uwe Kling - QualityLand-Reiseführer QuantityLands.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc - Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD2/07 - Marc - Uwe Kling - QualityLand-Reiseführer QuantityLands.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc - Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD2/08 - Marc - Uwe Kling - Kapitel 10 36,7% Aller Jobs Sind Komplett Sinnlos - Gehört Deiner Dazu.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc - Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD2/08 - Marc - Uwe Kling - Kapitel 10 36,7% Aller Jobs Sind Komplett Sinnlos - Gehört Deiner Dazu.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/01 - Marc-Uwe Kling - 1-01 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/01 - Marc-Uwe Kling - 1-01 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/02 - Marc-Uwe Kling - 1-02 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/02 - Marc-Uwe Kling - 1-02 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/03 - Marc-Uwe Kling - 1-03 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/03 - Marc-Uwe Kling - 1-03 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/04 - Marc-Uwe Kling - 1-04 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/04 - Marc-Uwe Kling - 1-04 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/05 - Marc-Uwe Kling - 1-05 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/05 - Marc-Uwe Kling - 1-05 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/06 - Marc-Uwe Kling - 1-06 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/06 - Marc-Uwe Kling - 1-06 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/07 - Marc-Uwe Kling - 1-07 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/07 - Marc-Uwe Kling - 1-07 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/08 - Marc-Uwe Kling - 1-08 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/08 - Marc-Uwe Kling - 1-08 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/09 - Marc-Uwe Kling - 1-09 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/09 - Marc-Uwe Kling - 1-09 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/10 - Marc-Uwe Kling - 1-10 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/10 - Marc-Uwe Kling - 1-10 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/11 - Marc-Uwe Kling - 1-11 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/11 - Marc-Uwe Kling - 1-11 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/12 - Marc-Uwe Kling - 1-12 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0/12 - Marc-Uwe Kling - 1-12 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis/01 - Marc-Uwe Kling - 8-01 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis/01 - Marc-Uwe Kling - 8-01 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis/02 - Marc-Uwe Kling - 8-02 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis/02 - Marc-Uwe Kling - 8-02 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis/03 - Marc-Uwe Kling - 8-03 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis/03 - Marc-Uwe Kling - 8-03 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis/04 - Marc-Uwe Kling - 8-04 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis/04 - Marc-Uwe Kling - 8-04 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis/05 - Marc-Uwe Kling - 8-05 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis/05 - Marc-Uwe Kling - 8-05 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis/06 - Marc-Uwe Kling - 8-06 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis/06 - Marc-Uwe Kling - 8-06 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD5/01 - Marc-Uwe Kling - 5-01 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD5/01 - Marc-Uwe Kling - 5-01 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD5/02 - Marc-Uwe Kling - 5-02 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD5/02 - Marc-Uwe Kling - 5-02 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD5/03 - Marc-Uwe Kling - 5-03 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD5/03 - Marc-Uwe Kling - 5-03 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD5/04 - Marc-Uwe Kling - 5-04 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD5/04 - Marc-Uwe Kling - 5-04 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD5/05 - Marc-Uwe Kling - 5-05 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD5/05 - Marc-Uwe Kling - 5-05 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD5/06 - Marc-Uwe Kling - 5-06 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD5/06 - Marc-Uwe Kling - 5-06 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD5/07 - Marc-Uwe Kling - 5-07 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD5/07 - Marc-Uwe Kling - 5-07 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD5/08 - Marc-Uwe Kling - 5-08 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD5/08 - Marc-Uwe Kling - 5-08 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD5/09 - Marc-Uwe Kling - 5-09 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD5/09 - Marc-Uwe Kling - 5-09 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD5/10 - Marc-Uwe Kling - 5-10 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD5/10 - Marc-Uwe Kling - 5-10 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/01 - Marc-Uwe Kling - 6-01 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/01 - Marc-Uwe Kling - 6-01 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/02 - Marc-Uwe Kling - 6-02 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/02 - Marc-Uwe Kling - 6-02 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/03 - Marc-Uwe Kling - 6-03 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/03 - Marc-Uwe Kling - 6-03 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/04 - Marc-Uwe Kling - 6-04 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/04 - Marc-Uwe Kling - 6-04 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/05 - Marc-Uwe Kling - 6-05 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/05 - Marc-Uwe Kling - 6-05 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/06 - Marc-Uwe Kling - 6-06 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/06 - Marc-Uwe Kling - 6-06 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/07 - Marc-Uwe Kling - 6-07 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/07 - Marc-Uwe Kling - 6-07 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/08 - Marc-Uwe Kling - 6-08 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/08 - Marc-Uwe Kling - 6-08 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/09 - Marc-Uwe Kling - 6-09 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/09 - Marc-Uwe Kling - 6-09 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/10 - Marc-Uwe Kling - 6-10 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/10 - Marc-Uwe Kling - 6-10 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/11 - Marc-Uwe Kling - 6-11 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/11 - Marc-Uwe Kling - 6-11 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/12 - Marc-Uwe Kling - 6-12 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD6/12 - Marc-Uwe Kling - 6-12 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD7/01 - Marc-Uwe Kling - 7-01 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD7/01 - Marc-Uwe Kling - 7-01 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD7/02 - Marc-Uwe Kling - 7-02 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD7/02 - Marc-Uwe Kling - 7-02 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD7/03 - Marc-Uwe Kling - 7-03 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD7/03 - Marc-Uwe Kling - 7-03 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD7/04 - Marc-Uwe Kling - 7-04 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD7/04 - Marc-Uwe Kling - 7-04 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD7/05 - Marc-Uwe Kling - 7-05 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD7/05 - Marc-Uwe Kling - 7-05 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD7/06 - Marc-Uwe Kling - 7-06 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD7/06 - Marc-Uwe Kling - 7-06 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD7/07 - Marc-Uwe Kling - 7-07 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD7/07 - Marc-Uwe Kling - 7-07 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD7/08 - Marc-Uwe Kling - 7-08 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD7/08 - Marc-Uwe Kling - 7-08 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD7/09 - Marc-Uwe Kling - 7-09 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD7/09 - Marc-Uwe Kling - 7-09 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD7/10 - Marc-Uwe Kling - 7-10 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis - CD7/10 - Marc-Uwe Kling - 7-10 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/01 - Marc-Uwe Kling - 4-01 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/01 - Marc-Uwe Kling - 4-01 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/02 - Marc-Uwe Kling - 4-02 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/02 - Marc-Uwe Kling - 4-02 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/03 - Marc-Uwe Kling - 4-03 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/03 - Marc-Uwe Kling - 4-03 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/04 - Marc-Uwe Kling - 4-04 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/04 - Marc-Uwe Kling - 4-04 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/05 - Marc-Uwe Kling - 4-05 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/05 - Marc-Uwe Kling - 4-05 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/06 - Marc-Uwe Kling - 4-06 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/06 - Marc-Uwe Kling - 4-06 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/07 - Marc-Uwe Kling - 4-07 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/07 - Marc-Uwe Kling - 4-07 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/08 - Marc-Uwe Kling - 4-08 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/08 - Marc-Uwe Kling - 4-08 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/09 - Marc-Uwe Kling - 4-09 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/09 - Marc-Uwe Kling - 4-09 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/10 - Marc-Uwe Kling - 4-10 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/10 - Marc-Uwe Kling - 4-10 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/11 - Marc-Uwe Kling - 4-11 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - Qualityland 2.0 - Kikis Geheimnis -CD4/11 - Marc-Uwe Kling - 4-11 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/01 - Marc-Uwe Kling - 3-01 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/01 - Marc-Uwe Kling - 3-01 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/02 - Marc-Uwe Kling - 3-02 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/02 - Marc-Uwe Kling - 3-02 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/03 - Marc-Uwe Kling - 3-03 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/03 - Marc-Uwe Kling - 3-03 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/04 - Marc-Uwe Kling - 3-04 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/04 - Marc-Uwe Kling - 3-04 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/05 - Marc-Uwe Kling - 3-05 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/05 - Marc-Uwe Kling - 3-05 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/06 - Marc-Uwe Kling - 3-06 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/06 - Marc-Uwe Kling - 3-06 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/07 - Marc-Uwe Kling - 3-07 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/07 - Marc-Uwe Kling - 3-07 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/08 - Marc-Uwe Kling - 3-08 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/08 - Marc-Uwe Kling - 3-08 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/09 - Marc-Uwe Kling - 3-09 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/09 - Marc-Uwe Kling - 3-09 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/10 - Marc-Uwe Kling - 3-10 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/10 - Marc-Uwe Kling - 3-10 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/11 - Marc-Uwe Kling - 3-11 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/11 - Marc-Uwe Kling - 3-11 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/12 - Marc-Uwe Kling - 3-12 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/QualityLand2_0/Marc-Uwe Kling - QualityLand 2.0 - Kikis Geheimnis CD3/12 - Marc-Uwe Kling - 3-12 QLand2.ogg"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Energy 11 House/20 Angry Heart ( Dub Mix ).mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Energy 11 House/20 Angry Heart ( Dub Mix ).mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Finger 5/05 The Answer.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Finger 5/05 The Answer.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Energy 2006/1-05 Skyline.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Energy 2006/1-05 Skyline.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Energy 06 - House/10 Spirit Of House (Bongoloverz House Mix).mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Energy 06 - House/10 Spirit Of House (Bongoloverz House Mix).mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Future Disco Presents_ Poolside Sounds, Vol. 2/15 Tiny Nut.m4a.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Future Disco Presents_ Poolside Sounds, Vol. 2/15 Tiny Nut.m4a.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Finger 4/07 Do You See The Light (Steve Murano Mix).mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Finger 4/07 Do You See The Light (Steve Murano Mix).mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Eden/Ibiza 2004/14 Mantanka feat. Sheryl Deane - Near Me (Airbase Remix).mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Eden/Ibiza 2004/14 Mantanka feat. Sheryl Deane - Near Me (Airbase Remix).mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Eric Clapton/Clapton Chronicles_ The Best Of Eric Clapton/15 Wonderful Tonight (Live Edit).mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Eric Clapton/Clapton Chronicles_ The Best Of Eric Clapton/15 Wonderful Tonight (Live Edit).mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Haddaway/What Is Love (Remixes)/01 What Is Love (Eat This Mix).mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Haddaway/What Is Love (Remixes)/01 What Is Love (Eat This Mix).mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/German Soul Vol.1/German Soul Vol.1/16 Edo Zanki & Freunde _ Gib Mir Musik.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/German Soul Vol.1/German Soul Vol.1/16 Edo Zanki & Freunde _ Gib Mir Musik.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/East 17/It's Alright [Single]/01 It's Alright (The Guvnor Mix).mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/East 17/It's Alright [Single]/01 It's Alright (The Guvnor Mix).mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Hardstyle/Hardstyle Top 100/69 Pump Dizzz.m4a.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Hardstyle/Hardstyle Top 100/69 Pump Dizzz.m4a.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Hardstyle/Hardstyle Top 100/03 Acid Noir.m4a.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Hardstyle/Hardstyle Top 100/03 Acid Noir.m4a.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Hardstyle/Hardstyle Top 100/81 Pornstar.m4a.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Hardstyle/Hardstyle Top 100/81 Pornstar.m4a.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Hardstyle/Hardstyle Top 100/82 Natte Asbak.m4a.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Hardstyle/Hardstyle Top 100/82 Natte Asbak.m4a.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Drexciya/The Journey Home - EP/01 Black Sea.m4a.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Drexciya/The Journey Home - EP/01 Black Sea.m4a.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Grundig/MTPMEDIA/claude/Bugged Out! Presents Suck My Deck Simian Mobile Disco - 10 - Para One - Midnight Swim (Riton Re Rub).mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/Grundig/MTPMEDIA/claude/Bugged Out! Presents Suck My Deck Simian Mobile Disco - 10 - Para One - Midnight Swim (Riton Re Rub).mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/demoscene/payne_dysfunctional_world.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/demoscene/payne_dysfunctional_world.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/demoscene/Revision 2015 - Compo - PC Demo-ZKKuXK1YXZ8.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/demoscene/Revision 2015 - Compo - PC Demo-ZKKuXK1YXZ8.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/demoscene/huxley idiot - ekspert _ Revision 2015-KyOVGQgldCA.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/demoscene/huxley idiot - ekspert _ Revision 2015-KyOVGQgldCA.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/demoscene/Still Alive-10223133532553628.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/demoscene/Still Alive-10223133532553628.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/demoscene/STILL_WAKE - About us-48YGWDeK8bQ.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/demoscene/STILL_WAKE - About us-48YGWDeK8bQ.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/demoscene/buenzli16_dj_klangstoss_xvid_pass2.avi.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/demoscene/buenzli16_dj_klangstoss_xvid_pass2.avi.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/demoscene/Introspection - LJ & Virgill _ 4k _ Deadline 2019-_vEV_FcMfKA.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/demoscene/Introspection - LJ & Virgill _ 4k _ Deadline 2019-_vEV_FcMfKA.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/demoscene/Please Don't by Calodox (Demodays 2011 Demo Competition)-GdElENDVIZo.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/demoscene/Please Don't by Calodox (Demodays 2011 Demo Competition)-GdElENDVIZo.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/demoscene/Netpoet's Demodays 2014 DJ Set.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/demoscene/Netpoet's Demodays 2014 DJ Set.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/demoscene/Fear Factory/Obsolete/09 Resurrection.m4a.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/6b2439d3-b048-43aa-83a9-2dee2c44fb61/home/marc/Music.noDupes/demoscene/Fear Factory/Obsolete/09 Resurrection.m4a.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/demoscene/Still Alive-10223133532553628.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/demoscene/Still Alive-10223133532553628.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/demoscene/Please Don't by Calodox (Demodays 2011 Demo Competition)-GdElENDVIZo.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/demoscene/Please Don't by Calodox (Demodays 2011 Demo Competition)-GdElENDVIZo.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/demoscene/Netpoet's Demodays 2014 DJ Set.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/demoscene/Netpoet's Demodays 2014 DJ Set.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/demoscene/STILL_WAKE - About us-48YGWDeK8bQ.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/demoscene/STILL_WAKE - About us-48YGWDeK8bQ.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/demoscene/huxley idiot - ekspert _ Revision 2015-KyOVGQgldCA.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/demoscene/huxley idiot - ekspert _ Revision 2015-KyOVGQgldCA.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/demoscene/Revision 2015 - Compo - PC Demo-ZKKuXK1YXZ8.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/demoscene/Revision 2015 - Compo - PC Demo-ZKKuXK1YXZ8.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/demoscene/buenzli16_dj_klangstoss_xvid_pass2.avi.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/demoscene/buenzli16_dj_klangstoss_xvid_pass2.avi.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/demoscene/Introspection - LJ & Virgill _ 4k _ Deadline 2019-_vEV_FcMfKA.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/demoscene/Introspection - LJ & Virgill _ 4k _ Deadline 2019-_vEV_FcMfKA.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/demoscene/payne_dysfunctional_world.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/demoscene/payne_dysfunctional_world.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/Grundig/MTPMEDIA/claude/Bugged Out! Presents Suck My Deck Simian Mobile Disco - 10 - Para One - Midnight Swim (Riton Re Rub).mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/Grundig/MTPMEDIA/claude/Bugged Out! Presents Suck My Deck Simian Mobile Disco - 10 - Para One - Midnight Swim (Riton Re Rub).mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/couchy/Couchsofa - Der gute Stoff muss brennbar sein - live at 20 Jahre Chaosdorf-couchsofa_couchsofa-der-gute-stoff-muss-brennbar-sein-live-at-20-jahre-chaosdorf.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/media/marc/317fa847-9fdb-4dc2-8ee1-ee150d209f92/Music.noDupes/couchy/Couchsofa - Der gute Stoff muss brennbar sein - live at 20 Jahre Chaosdorf-couchsofa_couchsofa-der-gute-stoff-muss-brennbar-sein-live-at-20-jahre-chaosdorf.mp3"
+Info [LibraryScanner 1]: TrackDAO - Looking for substitute of missing track location "/home/marc/hackerscardgame-notes4/2-Couchsofa - Der gute Stoff muss brennbar sein - live at 20 Jahre Chaosdorf-couchsofa_couchsofa-der-gute-stoff-muss-brennbar-sein-live-at-20-jahre-chaosdorf.mp3"
+Info [LibraryScanner 1]: TrackDAO - Found no substitute for missing track location "/home/marc/hackerscardgame-notes4/2-Couchsofa - Der gute Stoff muss brennbar sein - live at 20 Jahre Chaosdorf-couchsofa_couchsofa-der-gute-stoff-muss-brennbar-sein-live-at-20-jahre-chaosdorf.mp3"
+Debug [LibraryScanner 1]: Committing transaction on "MIXXX-2" result: true
+Debug [LibraryScanner 1]: LibraryScanner - Detecting cover art for unscanned files
+Debug [LibraryScanner 1]: LibraryScanner - Scan finished cleanly
+Debug [LibraryScanner 1]: Scan took: 59433908449 ns. 2493 unchanged directories. 5 changed/added directories. 0 tracks verified from changed/added directories. 120 new tracks.
+Debug [Main]: BaseTrackCache(0x55da7b254e40) updateIndexWithQuery took 1 ms
+Debug [Main]: LibraryTableModel(0x55da7b3ac4b0) select() took 64 ms 144
+Debug [Main]: MissingTableModel(0x55da7fe944c0) select() took 5 ms 120
+Debug [Main]: HiddenTableModel(0x55da7fe3b540) select() took 1 ms 0
+Debug [Main]: AnalysisLibraryTableModel(0x55da7ffc0c30) select() took 28 ms 195
+Debug [Main]: "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/22 - Killshot & Ncrypta - Uppercut.ogg" fromTrackDuration = 187.093
+Debug [Main]: "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/10 - E-Force - Salute (Q-Base 2018 Hangar OST).ogg" toTrackDuration =  199.32
+Debug [Main]: m_fadeDuration "[Channel2]" = 0.0427594
+Debug [Main]: "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/22 - Killshot & Ncrypta - Uppercut.ogg" fromTrackDuration = 187.093
+Debug [Main]: "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/10 - E-Force - Salute (Q-Base 2018 Hangar OST).ogg" toTrackDuration =  199.32
+Debug [Main]: m_fadeDuration "[Channel2]" = 0.0427594
+Debug [Main]: Committing transaction on "MIXXX-1" result: true
+Debug [Main]: PlaylistTableModel(0x55da78ddd710) select() took 0 ms 12
+Debug [Main]: Committing transaction on "MIXXX-1" result: true
+Debug [Main]: Successfully deserialized BeatGrid
+Debug [Main]: Successfully deserialized KeyMap
+Debug [Main]: BaseTrackCache(0x55da7b254e40) updateIndexWithQuery took 0 ms
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Channel1]"
+Debug [CachingReaderWorker 1]: SoundSourceProxy - Opening file "file:///media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/06 - Unresolved - Chances.ogg" with provider "Xiph.org OggVorbis" using mode Strict
+Debug [Main]: BaseTrackPlayerImpl::slotTrackLoaded
+Debug [Main]: "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/22 - Killshot & Ncrypta - Uppercut.ogg" fromTrackDuration = 187.093
+Debug [Main]: "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/06 - Unresolved - Chances.ogg" toTrackDuration =  189.053
+Debug [Main]: m_fadeDuration "[Channel2]" = 0.0427594
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Analyzing "Chances" "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/06 - Unresolved - Chances.ogg"
+Debug [AnalyzerQueue 1]: SoundSourceProxy - Opening file "file:///media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/06 - Unresolved - Chances.ogg" with provider "Xiph.org OggVorbis" using mode Strict
+Debug [Main]: WSpinny::slotCoverFound WSpinny(0x55da7be5c2e0, name = "SpinnySingletonWithCover[Channel1]")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WSpinny::slotCoverFound WSpinny(0x55da7db45380, name = "SpinnySingletonNoCover[Channel1]")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x55da812c2d70, name = "DeckCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: TrackDAO: Saving track 41998 "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/10 - E-Force - Salute (Q-Base 2018 Hangar OST).ogg"
+Debug [Main]: TrackDAO: Updating track in database 41998 "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/10 - E-Force - Salute (Q-Base 2018 Hangar OST).ogg"
+Debug [Main]: BaseTrackCache(0x55da7b254e40) updateIndexWithQuery took 0 ms
+Debug [AnalyzerQueue 1]: AnalysisDAO fetched 2 analyses, 1563194 bytes for track 41994 in 12 ms
+Debug [AnalyzerQueue 1]: Reading waveform from byte array: allSignalSize 166746 visualSampleRate 441 audioVisualRatio 100
+Debug [AnalyzerQueue 1]: Reading waveform from byte array: allSignalSize 3840 visualSampleRate 10.1559 audioVisualRatio 4342.32
+Debug [AnalyzerQueue 1]: AnalyzerWaveform - loadStored - Stored waveform loaded
+Debug [AnalyzerQueue 1]: Beat calculation will not start
+Debug [AnalyzerQueue 1]: Keys version/sub-version unchanged since previous analysis. Not analyzing.
+Debug [AnalyzerQueue 1]: Key calculation will not start.
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Skipping track analysis because no analyzer initialized.
+Debug [Main]: "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/06 - Unresolved - Chances.ogg" fromTrackDuration = 189.053
+Debug [Main]: "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/22 - Killshot & Ncrypta - Uppercut.ogg" toTrackDuration =  187.093
+Debug [Main]: m_fadeDuration "[Channel1]" = 0.0423161
+Debug [Main]: "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/06 - Unresolved - Chances.ogg" fromTrackDuration = 189.053
+Debug [Main]: "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/22 - Killshot & Ncrypta - Uppercut.ogg" toTrackDuration =  187.093
+Debug [Main]: m_fadeDuration "[Channel1]" = 0.0423161
+Debug [Main]: Committing transaction on "MIXXX-1" result: true
+Debug [Main]: PlaylistTableModel(0x55da78ddd710) select() took 1 ms 11
+Debug [Main]: Committing transaction on "MIXXX-1" result: true
+Debug [Main]: Successfully deserialized BeatGrid
+Debug [Main]: Successfully deserialized KeyMap
+Debug [Main]: BaseTrackCache(0x55da7b254e40) updateIndexWithQuery took 0 ms
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Channel2]"
+Debug [CachingReaderWorker 2]: SoundSourceProxy - Opening file "file:///media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/15 - Caine - Blast Your Ass.ogg" with provider "Xiph.org OggVorbis" using mode Strict
+Debug [Main]: BaseTrackPlayerImpl::slotTrackLoaded
+Debug [Main]: "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/06 - Unresolved - Chances.ogg" fromTrackDuration = 189.053
+Debug [Main]: "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/15 - Caine - Blast Your Ass.ogg" toTrackDuration =  219.16
+Debug [Main]: m_fadeDuration "[Channel1]" = 0.0423161
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Analyzing "Blast Your Ass" "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/15 - Caine - Blast Your Ass.ogg"
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [AnalyzerQueue 1]: SoundSourceProxy - Opening file "file:///media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/15 - Caine - Blast Your Ass.ogg" with provider "Xiph.org OggVorbis" using mode Strict
+Debug [Main]: WSpinny::slotCoverFound WSpinny(0x55da7e5f5330, name = "SpinnySingletonWithCover[Channel2]")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WSpinny::slotCoverFound WSpinny(0x55da7e86dfa0, name = "SpinnySingletonNoCover[Channel2]")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x55da82150f80, name = "DeckCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: TrackDAO: Saving track 42009 "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/22 - Killshot & Ncrypta - Uppercut.ogg"
+Debug [Main]: TrackDAO: Updating track in database 42009 "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/22 - Killshot & Ncrypta - Uppercut.ogg"
+Debug [Main]: BaseTrackCache(0x55da7b254e40) updateIndexWithQuery took 0 ms
+Debug [AnalyzerQueue 1]: AnalysisDAO fetched 2 analyses, 1846978 bytes for track 42002 in 14 ms
+Debug [AnalyzerQueue 1]: Reading waveform from byte array: allSignalSize 193300 visualSampleRate 441 audioVisualRatio 100
+Debug [AnalyzerQueue 1]: Reading waveform from byte array: allSignalSize 3842 visualSampleRate 8.76072 audioVisualRatio 5033.83
+Debug [AnalyzerQueue 1]: AnalyzerWaveform - loadStored - Stored waveform loaded
+Debug [AnalyzerQueue 1]: Beat calculation will not start
+Debug [AnalyzerQueue 1]: Keys version/sub-version unchanged since previous analysis. Not analyzing.
+Debug [AnalyzerQueue 1]: Key calculation will not start.
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Skipping track analysis because no analyzer initialized.
+Debug [Main]: DBus screensaver  org.freedesktop.ScreenSaver  uninhibited
+Debug [Main]: Destroying MixxxMainWindow
+Debug [Main]: 1 ms saving configuration
+Debug [Main]: 2 ms deleting skin
+Debug [Main]: ~DlgAutoDJ()
+Debug [Main]: 381 ms deleting menubar
+Debug [Main]: 381 ms deleting SoundManager
+Debug [Main]: 521 ms deleting ControllerManager
+Debug [Controller]: Controller polling stopped.
+Debug [Controller]: Deleting PortMIDI devices...
+Debug [Controller]: ControllerEngine shutting down...
+Debug [Controller]: Deleting USB Bulk devices...
+Debug [Controller]: Deleting HID devices...
+Debug [Main]: 529 ms deleting VinylControlManager
+Debug [Main]: ~CoverArtCache()
+Debug [Main]: 529 ms deleting PlayerManager
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Exiting thread
+Debug [Main]: AnalyzerWaveform - ~AnalyzerWaveform():
+Debug [Main]: 537895291 ns deactivating GlobalTrackCache
+Debug [Main]: TrackDAO: Saving track 41994 "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/06 - Unresolved - Chances.ogg"
+Debug [Main]: TrackDAO: Updating track in database 41994 "/media/marc/55BE99DC5C7DDE95/Music.noDupes/Hardbase.fm 10 - CD3/06 - Unresolved - Chances.ogg"
+Debug [Main]: BaseTrackCache(0x55da7b254e40) updateIndexWithQuery took 0 ms
+Debug [Main]: 541 ms deleting Library
+Debug [Main]: Wait to finish browser background thread
+Debug [Main]: Browser background thread terminated!
+Info [Main]: Library - Disconnecting database
+Debug [Main]: TrackDAO::finish()
+Debug [Main]: Clearing played information for this session
+Debug [Main]: Cleaning LibraryHashes/track_locations tables.
+Debug [Main]: ~TrackDAO()
+Debug [LibraryScanner 1]: LibraryScanner - Event loop stopped
+Warning [LibraryScanner 1]: QSqlDatabasePrivate::removeDatabase: connection 'MIXXX-2' is still in use, all queries will cease to work.
+Debug [LibraryScanner 1]: LibraryScanner - Exiting thread
+Debug [Main]: ~TrackDAO()
+Debug [Main]: 559 ms closing database connection(s)
+Debug [Main]: 560 ms deleting RecordingManager
+Debug [Main]: Delete RecordingManager
+Debug [Main]: 560 ms deleting BroadcastManager
+Debug [Main]: DlgPrefBroadcast - broadcastEnabledChanged() 0
+Debug [Main]: 566 ms deleting EngineMaster
+Debug [Main]: in ~EngineMaster()
+Debug [Main]: 655 ms deleting DlgPreferences
+Debug [Main]: 661 ms deleting EffectsManager
+Debug [Main]: 676 ms deleting SettingsManager
+Debug [Main]: Mixxx shutdown complete with code 0

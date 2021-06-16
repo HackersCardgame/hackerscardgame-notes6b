@@ -1,0 +1,40 @@
+Tue 08 Jun 2021 01:39:04 PM CEST
+
+
+arc@debian:/disk/marc/old/hackerscardgame-notes5$ free -h
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi        10Gi       209Mi       432Mi       4.6Gi       4.0Gi
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.9T  204G  1.7T  11% /media/marc/3207FD8C0696A0FA
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.9T  204G  1.7T  11% /media/marc/3207FD8C0696A0FA
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.9T  204G  1.7T  11% /media/marc/3207FD8C0696A0FA
+^C
+marc@debian:/disk/marc/old/hackerscardgame-notes5$ sync
+^C^C^C^T^Z^R
+^T^T^T^Z^Z
+
+
+    Size  Used Avail Use% Mounted on
+/dev/sdb1       1.9T  204G  1.7T  11% /media/marc/3207FD8C0696A0FA
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.9T  204G  1.7T  11% /media/marc/3207FD8C0696A0FA
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.9T  204G  1.7T  11% /media/marc/3207FD8C0696A0FA
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.9T  204G  1.7T  11% /media/marc/3207FD8C0696A0FA
+
+    Size  Used Avail Use% Mounted on
+/dev/sdb1       1.9T  204G  1.7T  11% /media/marc/3207FD8C0696A0FA
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.9T  204G  1.7T  11% /media/marc/3207FD8C0696A0FA
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.9T  204G  1.7T  11% /media/marc/3207FD8C0696A0FA
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.9T  204G  1.7T  11% /media/marc/3207FD8C0696A0FA
+
+
+

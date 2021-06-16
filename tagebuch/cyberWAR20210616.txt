@@ -1,0 +1,229 @@
+Wed 16 Jun 2021 04:36:15 AM CEST
+
+GoodMorning CyberZeugsVietnam
+
+auf soundcloud.com/marc-floppy-landolt hat es nen neuen track der noch nicht gemastert ist weil mein windows spinnt und ich das halt mit wine64 auf linux und ableton
+
+Wed 16 Jun 2021 04:37:13 AM CEST
+  7  35 233 cyberWAR20210616.txt
+5221f947af02c19745f13b413cc1bc0b3a9bc13cc5468a55adacdefa6901c8eb0020721d5e8d72742596a03f8f64936de3e1abee1b673fd53e1aa78c6ecca8b1  cyberWAR20210616.txt
+[main fd7bf12] save
+ 1 file changed, 7 insertions(+)
+ create mode 100644 tagebuch/cyberWAR20210616.txt
+
+grrrrr... meine karma-energie-punkte heute schon in 4h aufgebraucht... Furby-mode: me sleep again...
+
+Wed 16 Jun 2021 05:17:31 AM CEST
+ 16  72 656 cyberWAR20210616.txt
+1c9c44c2e2af96dace4269354a68d2bb7885068fa8c723d00559dcdece6504c57b221aa6072b50c39a9a8ed9abbdab17779fad8cf1ea715aa90c097d0d41b0ec  cyberWAR20210616.txt
+[main 2a5f38d] save
+ 45 files changed, 6665 insertions(+)
+ rename {mixxx => mixxx.old}/.mixxx/broadcast_profiles/Connection 1.bcp.xml (100%)
+ rename {mixxx => mixxx.old}/.mixxx/controllers/APC_Key_25_MIDI_1.midi.xml (100%)
+ rename {mixxx => mixxx.old}/.mixxx/controllers/APC_MINI_MIDI_1--2.midi.xml (100%)
+ rename {mixxx => mixxx.old}/.mixxx/controllers/APC_MINI_MIDI_1.midi.xml (100%)
+ rename {mixxx => mixxx.old}/.mixxx/controllers/X-TOUCH_MINI_MIDI_1.midi.xml (100%)
+ rename {mixxx => mixxx.old}/.mixxx/effects.xml (100%)
+ rename {mixxx => mixxx.old}/.mixxx/mixxx.cfg (100%)
+ rename {mixxx => mixxx.old}/.mixxx/mixxx.log (100%)
+ rename {mixxx => mixxx.old}/.mixxx/mixxx.log.1 (100%)
+ rename {mixxx => mixxx.old}/.mixxx/mixxx.log.10 (100%)
+ rename {mixxx => mixxx.old}/.mixxx/mixxx.log.2 (100%)
+ rename {mixxx => mixxx.old}/.mixxx/mixxx.log.3 (100%)
+ rename {mixxx => mixxx.old}/.mixxx/mixxx.log.4 (100%)
+ rename {mixxx => mixxx.old}/.mixxx/mixxx.log.5 (100%)
+ rename {mixxx => mixxx.old}/.mixxx/mixxx.log.6 (100%)
+ rename {mixxx => mixxx.old}/.mixxx/mixxx.log.7 (100%)
+ rename {mixxx => mixxx.old}/.mixxx/mixxx.log.8 (100%)
+ rename {mixxx => mixxx.old}/.mixxx/mixxx.log.9 (100%)
+ rename {mixxx => mixxx.old}/.mixxx/mixxxdb.sqlite (100%)
+ rename {mixxx => mixxx.old}/.mixxx/samplers.xml (100%)
+ rename {mixxx => mixxx.old}/.mixxx/sandbox.cfg (100%)
+ rename {mixxx => mixxx.old}/.mixxx/soundconfig.xml (100%)
+ create mode 100644 mixxx/broadcast_profiles/Connection 1.bcp.xml
+ create mode 100644 mixxx/controllers/APC_Key_25_MIDI_1.midi.xml
+ create mode 100644 mixxx/controllers/APC_MINI_MIDI_1--2.midi.xml
+ create mode 100644 mixxx/controllers/APC_MINI_MIDI_1.midi.xml
+ create mode 100644 mixxx/controllers/X-TOUCH_MINI_MIDI_1.midi.xml
+ create mode 100644 mixxx/effects.xml
+ create mode 100644 mixxx/mixxx.cfg
+ create mode 100644 mixxx/mixxx.log
+ create mode 100644 mixxx/mixxx.log.1
+ create mode 100644 mixxx/mixxx.log.10
+ create mode 100644 mixxx/mixxx.log.2
+ create mode 100644 mixxx/mixxx.log.3
+ create mode 100644 mixxx/mixxx.log.4
+ create mode 100644 mixxx/mixxx.log.5
+ create mode 100644 mixxx/mixxx.log.6
+ create mode 100644 mixxx/mixxx.log.7
+ create mode 100644 mixxx/mixxx.log.8
+ create mode 100644 mixxx/mixxx.log.9
+ create mode 100644 mixxx/mixxxdb.sqlite
+ create mode 100644 mixxx/samplers.xml
+ create mode 100644 mixxx/sandbox.cfg
+ create mode 100644 mixxx/soundconfig.xml
+
+
+Wed 16 Jun 2021 01:10:01 PM CEST
+
+DEFCON1
+Medulla Spinalis THS Hacked
+
+ausserdem werden scheinbar die medizinischen anatomie anamneseblätter in der psychiatrie [1] dazu verwendet corona treffer am körper zu machen [2] bzw diese dann zu erfassen und später [3] als "additional selectors" zu aktivieren [4]
+
+[1] einblendung schusstoten anamneseblatt wo man sieht dass er die hände oben hatte <- mitten im satz, ev. HoneyPot / EventTrigger <- hiesse es gibt für alle spezialfälle wo etwas auffliegt ein internationales team das spezialist ist das zu vertuschen
+
+[2] double time slotting mti den eingezeichneten chemitroden und deren frequenen <- max ertrag satans detected, das ganze ist scripted und die täterschaft wird sich grad ein alibi beschaffen, statemachine suicide death bot
+
+[3] georg landolt, dieses script abfackeln [5] <- [DELETED] [REBUILT] georg schreibt source auf papier und weiss dass dass dann zu richtigem code geparsed wird? <- das 5 da impliziert etwas wie vorbereitete verstuschungsstories durch georg landolt damit wenn das "coden auf papier" auffliegt er noch einne additional selector hat. papier abzufackeln macht glaub georg landolt so 1x im jahr
+
+[4] einblendung: reservemedikamente in der psychiatrie
+
+[5] einblendung der kollegin von jan und janosh, irgend etwas wie spital oder operationssalt putzfrau oder so von beruf
+
+Wed 16 Jun 2021 01:16:03 PM CEST
+  84  497 4621 cyberWAR20210616.txt
+66213c8660166d390b8cb25b3f2e942c11cec254f50e26f670473f57df50636885b726b9fc4c227b5dcaf02a908d89ede53f8497b6238ca9d1925ff776f38c54  cyberWAR20210616.txt
+[main f942bed] save
+ 1 file changed, 19 insertions(+)
+
+dann werden diese coron treffer anamnese blätter scheinbar kopiert und die anderen nicht informiert dass ich da shcon desinfiziert habe...
+
+Wed 16 Jun 2021 01:17:19 PM CEST
+  92  538 5037 cyberWAR20210616.txt
+4a57dbad23783489da5e38c07b051d1b2256b97d5c28ce65729d044fcc0b072fb9207b849507489d2b9630f05699974c81ce7085d9062cdcf93f8872db0269c4  cyberWAR20210616.txt
+[main 47f044c] save
+ 1 file changed, 3 insertions(+)
+
+DEFCON3
+
+Wed 16 Jun 2021 01:17:58 PM CEST
+ 100  560 5320 cyberWAR20210616.txt
+49f46d49d1bf27d0f6da4884557cd23520787a542fbde057554cd911d3a61e2185335f486bcb993820aa129b7872174a51ef8e5bdd6d75a8e5e5e7427cdcac8a  cyberWAR20210616.txt
+[main 33eafee] save
+ 1 file changed, 3 insertions(+)
+
+BND Wasserhähne zu verticken:
+sobald man den griff des wasserhahns geputzt hat von potentiellem potentiellem corona macht das ding einen "git checkout allles-corona", also eventtrigger on wasserhahn, und das braucht entsprechend hohe access codes
+
+also das "BND Wasserhähne zu verticken" zeitungsartikel war ein verpetzen von satan
+
+Wed 16 Jun 2021 02:11:07 PM CEST
+ 111  627 5929 cyberWAR20210616.txt
+9663a7829ca70ec8c1ed7d720ad8b79bf6ce9fb1bdd7b83f24e812eb01cc58815ebac05612b36b9891cff8a52afc0df2e877684ee270812aa9db8f78efd8922e  cyberWAR20210616.txt
+[main 46b08bb] save
+ 1 file changed, 6 insertions(+)
+
+übermittlung: 
+Astird Blum zieht grad heroin
+
+das ist meiner Meinung nach obfuscation um mordversuche druch die zürich verischerung zu vershclieiern
+
+die zwei speziell gesicherten Terminals in der Zürich Verischrung geben alarm wenn z.B. die KSA Neurologie THS Mainframes nicht mehr [1] unter der kontrolle des terrornetzwerks dieser sorte von amerikanern steht und dann wird urs, astrid [3] mit mord, sprengfallen und terrordrohungen diese access codes wieder anzueignen
+
+
+[1] mord-, terror- und amok drohungen werden von der zürich verischrung prinzipiell durch belastungszeugen wie marc jr landolt sein sprachzentrum ths übermittelt damit die zürich versicherung erstens eine mord und terrordrohung abschicken kann und zweitens den zeugen diskreditieren, isolieren etc kann ... <- schnell getippt, etwa in der mitte des satzes hat pfisterers sprachsynthese übernommen [2]
+
+telemetrie 3D überwachugns medulla spinalis ths hat auch einen fader um in ein "strange paralell universe" zu faden falls ihc als zeuge merke dass da grad wieder was manipuliert wird <- ähm was war bei [1] schon wieder?
+
+[3] domink zschocke hat sich ausgeschlichen mit "wir wollen kein übergeordnetes rehct" <- schutzbehauptung dass austrid blum auch den domink zschocdke dazu >> verwwendet << die systeme zu ownen
+
+ich werd auch scon wieder ge dDOSed...
+
+Wed 16 Jun 2021 04:19:55 PM CEST
+ 133  845 7545 cyberWAR20210616.txt
+6f2127b80c14f22b9b42006abde075c782662038c30d0e73cad847121b9063f2853b45f53e04cffeba002b741a073cbf16189b92609e0abd71f631c754120970  cyberWAR20210616.txt
+[main 01ec321] save
+ 1 file changed, 4 insertions(+)
+
+
+dann der uplaod meiner handnotizen wurde mehere minuten hinausgezögert, wenn man das mit dem mord durch die feuerwehr gautsich der polizei meldet fangen die an mich anzugreifen... notizen beinhalten spekulationen zu diesem fall
+
+Wed 16 Jun 2021 04:23:49 PM CEST
+ 142  899 8050 cyberWAR20210616.txt
+0ccdc1e55eaac9ea2edfd0c7094504aca69cbbcee9b001643be57cf49e7ec775d260cb2f8f4e0602dbe1af56eb5cc0f0a63a7ce20dbca359f6c5ae1aa81325c0  cyberWAR20210616.txt
+[main 1efefbe] save
+ 6 files changed, 4 insertions(+)
+ create mode 100644 TODO/BRN3C2AF421298E_012659.pdf
+ create mode 100644 TODO/BRN3C2AF421298E_012759.pdf
+ create mode 100644 TODO/BRN3C2AF421298E_012775.pdf
+ create mode 100644 TODO/BRN3C2AF421298E_012793.pdf
+ create mode 100644 TODO/BRN3C2AF421298E_012827.pdf
+
+
+und hier würde dann wieder mal die "that escalated quickly meme mit dr house" passen...
+
+Wed 16 Jun 2021 04:24:22 PM CEST
+ 156  955 8676 cyberWAR20210616.txt
+7614fea092c02e06577e375dbfc7de639b0f120b44a94625af9803ef972efa6ad8e011e8af29189f317d2a344bb9d0d9e0c254568bda49e3c5b0e6a4ef5d268a  cyberWAR20210616.txt
+[main f7b6d9d] save
+ 1 file changed, 11 insertions(+)
+
+Secret Interpreation of section xyz of the petriot act of the secret curt:
+
+sobald ein zeuge die infiltration z.B. der gerichte durch diese sorte von militärs rausfindet, anprangert wird ein todesruteil gegen den zuegen ausgesprochen, ein nicht legitimes todesurteil. da wird immer alle relevanten personen im umfeld, familie, richter, kollegen/innen dazu gebracht JA zum todesrteil zu sagen, damit diese nicht den spuren folgen und das selbe herausfinden wie das mordopfer vor seiner ermordunng durch die justiz im auftrag dieser sorte von militärs ...
+
+Wed 16 Jun 2021 04:32:12 PM CEST
+ 166 1059 9508 cyberWAR20210616.txt
+5d03a529c2649d57bc49a3a2c1a56d12b55ffb08f3bee3a3a5e48234f0e84d11085b2c4699c813ed7825846f9a78d0ca1a7c17f9866c0233a6dfbe708d3ffdc7  cyberWAR20210616.txt
+[main 78e0022] save
+ 1 file changed, 5 insertions(+)
+
+dann die zweite stufe ist, dass die justiz das rausfindet und vertusch bzw. geheim hält
+
+denn die dritte stufe ist, dass die justiz dann einen zeugen vorsätzlich ermordet und dann auch vorsätzlicher mord in der akte des/der richters/jury steht nicht nur fahrlässige tötung...
+
+LIEBE DIE LüGE "liebe" ASTRID BLUM dass ihr den TOBIAS MOSER "legitim" ermordet habt.
+
+Wed 16 Jun 2021 04:34:02 PM CEST
+  178  1137 10152 cyberWAR20210616.txt
+f18a34513ca403435079f887364152b2834d74b75787a153fe13c771b44852566e5433b4f0679908d4e78806a74c60a5ef66d43d6aa0c31bccb17fbc4dee62c8  cyberWAR20210616.txt
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+Wed 16 Jun 2021 04:34:05 PM CEST
+  186  1176 10530 cyberWAR20210616.txt
+37da3b096eae7bd67051e85ae2dbec600928ca5d938f17da19cdc2f4fe979204812a9b86fb5a2cef4a678e5abb9b34c0785dfb4910cf25398a9bd319f97a802e  cyberWAR20210616.txt
+[main 16fd934] save
+ 1 file changed, 8 insertions(+)
+
+1. selbstversuchuldete potentielle corona infektions, z.B. beim wechseln des abfallsacks
+2. ich zu mir: diese stelle grad putzen
+3. pavlow schlatet cyberwürgekette / pavlow stimuli ein und droht mir mit vergewaltigung die ich "wolle"
+4. ich vergess das bei 2. grad zu putzen
+5. dann käme wieder ein corona fork fork fork mit "blaming the user" krate
+
+ksa aarau ist fett im zensur business drin, bzw. im business straftaten zu vertuschen und aussagen zu verhindern, 
+
+HNO aarau: cyberwürgekette
+neurologie aarau: diverses "nettes" zeugs
+
+aber für den moment nur auf DEFCON3 unten...
+
+
+also mytha pfisterer und hansjürg pfisterer würde z.B. bei uni basel medizin studenten schon relativ frühe anfangen den studenten leichen in den keller zu stellen damit diese dann in das zwangsmassnahmensystem der 1940er uni basel studenten (gemäss pfisteers eingener aussage habe er auch an der uni basel studiert) zu würgen...
+
+Wed 16 Jun 2021 04:47:05 PM CEST
+  208  1338 11730 cyberWAR20210616.txt
+f11249642ec44fdb13e065652a5ab714fbd2d9bd236072e895c88a86b5ea357f6e868d391c21907d51896679c4255e557eaff8ef9491f897a80f8822c4c47561  cyberWAR20210616.txt
+[main 0950500] save
+ 1 file changed, 2 insertions(+)
+
+dDOS jetzt auf seiten von Gitlab?
+
+Wed 16 Jun 2021 04:47:38 PM CEST
+  216  1365 12042 cyberWAR20210616.txt
+8cd8060144b34c75ee596ab0ce1e9ef6d9f32fbbd40498142e28e80c85830810b0b0e6a7d8deb6721a943329f1b59ed83aed95c13c35525dc6242d61341b471a  cyberWAR20210616.txt
+[main b83f148] save
+ 1 file changed, 3 insertions(+)
+
++= mirror auf github.com/HackersCardgame/hackerscardgame-notes6b
+--> bzw. am uploaden...
+Wed 16 Jun 2021 04:52:18 PM CEST
+  224  1394 12408 cyberWAR20210616.txt
+fa5b9efcd38833625f2312ca2df2c5374ed0b4ff5b73dac38840de09edadf1c54d541d3a11a846426ec27eb1b62d02991944b4346425568259ecf55537ea4fb4  cyberWAR20210616.txt
+[main 26a14e1] save
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
