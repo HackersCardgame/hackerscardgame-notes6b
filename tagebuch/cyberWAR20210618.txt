@@ -1,0 +1,28 @@
+Fri 18 Jun 2021 12:43:57 AM CEST
+
+also "lieber" urs blum und gabriel riela, zumindest inhaltlich, moralisch ... seid ihr schach matt, aber wenn ihr mit atomwaffen und solchen dingen droht sage ich halt einfach ncihts mehr
+
+
+hat das gericht noch irgendwelhce fragen an mich?
+
+Fri 18 Jun 2021 12:44:38 AM CEST
+  8  45 276 cyberWAR20210618.txt
+4f3249ef84ba9645b3073b3ef00ca3ab7d331abf9b9f7452ffef8f3e474b9061fbba6c08860fd88d0813693754b65cfb94eda9dcd3760fc2af83fc6bac83a2a1  cyberWAR20210618.txt
+[main c49b290] save
+ 1 file changed, 8 insertions(+)
+ create mode 100644 tagebuch/cyberWAR20210618.txt
+
+notice the same "git commit"
+
+Fri 18 Jun 2021 12:45:39 AM CEST
+ 17  75 627 cyberWAR20210618.txt
+356bd140700148d1b3b8d232af7a4ad6aed39317fa9b8278d7c7f9f8cf6d9152a6e0be42532e06b2a24120ebabbd405cdc9529fb215a7d4987f798f8287653a2  cyberWAR20210618.txt
+[main 6e63e8e] save
+ 2 files changed, 3 insertions(+)
+ create mode 100644 TODO/resetted-connection-questionmark.png
+Fri 18 Jun 2021 12:45:41 AM CEST
+ 23 100 960 cyberWAR20210618.txt
+5ac75f2665a5d2214be03b24f25494b79b0c3652340b3b67d81b2bbffb948efd0777d18397e5d100d48f9d703cbadcbdd6e6ca3f9d72d4f5d2bf72a46575f7ed  cyberWAR20210618.txt
+[main dba7c2e] save
+ 1 file changed, 6 insertions(+)
+
